@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker exec -it engfrosh certbot certonly
+docker exec -it spookyScav certbot certonly
