@@ -1,3 +1,3 @@
 #!/bin/bash
 export NAME=engfrosh-deps
-docker build -t spooky-scav/$NAME --network host . --no-cache
+docker build -t spookyscav/$NAME --network host . --no-cache

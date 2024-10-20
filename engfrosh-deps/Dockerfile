@@ -6,4 +6,4 @@ ENV TZ="America/Toronto"
 
 RUN useradd -ms /bin/bash ubuntu
 RUN apt-get update && apt-get upgrade -y && apt-get install -y git libpq-dev sudo tzdata libmariadb-dev
-RUN cd /home/ubuntu && git clone https://github.com/ZachGregory/spookyScav.git && cd spookyScav && sh setup.sh && cd .. && rm -rf spookyScav
+RUN cd /home/ubuntu && git clone https://github.com/ZachGregory/spookyscav.git && mv spookyscav engfrosh && cd engfrosh && sh setup.sh && cd .. && rm -rf engfrosh
